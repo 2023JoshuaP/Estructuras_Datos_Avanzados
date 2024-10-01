@@ -2,13 +2,17 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <fstream>
 #include "./RedBlackTree.cpp"
 
 int main() {
+    std::ofstream file("Resultados.csv");
+    file << "Numero de Claves,Comparaciones Promedio\n";
+
     std::vector<int> keys;
     std::srand(std::time(0));
 
-    for (int n = 100; n <= 10000; n *= 10) {
+    for (int n = 100; n <= 10000; n += 100) {
         RedBlackTree RBTree;
         keys.clear();
 
@@ -29,7 +33,9 @@ int main() {
 
         double promedio_comparaciones = comparaciones_totales / (double)repeticiones;
         std::cout << "Numero de claves: " << n << " | Comparaciones promedio: " << promedio_comparaciones << std::endl;
+        file << n << "," << promedio_comparaciones << "\n";
     }
 
+    file.close();
     return 0;
 }
