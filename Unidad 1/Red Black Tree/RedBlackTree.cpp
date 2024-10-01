@@ -73,6 +73,7 @@ void RedBlackTree::PrintTree() {
     Print(root, 0);
 }
 
-Node* RedBlackTree::Search(int data) {
-    return SearchHelper(root, data);
+Node* RedBlackTree::Search(int data, int& comparaciones) {
+    comparaciones = 0;
+    return SearchHelper(root, data, comparaciones);
 }
