@@ -1,2 +1,7 @@
 # Ignorar archivos ejecutables
+
 *.exe
+
+# Ignorar archivos .dot
+
+*.dot
