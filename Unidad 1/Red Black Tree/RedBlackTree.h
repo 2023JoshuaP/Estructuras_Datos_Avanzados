@@ -299,19 +299,20 @@ class RedBlackTree {
             comparaciones++;
 
             if (node == nullptr) {
-                std::cout << "Clave " << data << " no encontrada despues de " << comparaciones << " comparaciones." << std::endl;
+                //std::cout << "Clave " << data << " no encontrada despues de " << comparaciones << " comparaciones." << std::endl;
                 return node;
             }
             else if (data == node->data) {
-                std::cout << "Clave " << data << " encontrada en el nodo " << node->data  << " despues de " << comparaciones << " comparaciones." << std::endl;
+                //std::cout << "Clave " << data << " encontrada en el nodo " << node->data  << " despues de " << comparaciones << " comparaciones." << std::endl;
                 return node;
             }
 
             if (data < node->data) {
-                std::cout << "Buscando a la izquierda del nodo " << node->data << std::endl;
+                //std::cout << "Buscando a la izquierda del nodo " << node->data << std::endl;
                 return SearchHelper(node->left, data, comparaciones);
             }
-            std::cout << "Buscando a la derecha del nodo " << node->data << std::endl;
+            
+            //std::cout << "Buscando a la derecha del nodo " << node->data << std::endl;
             return SearchHelper(node->right, data, comparaciones);
         }
 
