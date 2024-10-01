@@ -295,15 +295,24 @@ class RedBlackTree {
             Print(root->left, space);
         }
 
-        Node* SearchHelper(Node* node, int data) {
-            if (node == nullptr || data == node->data) {
+        Node* SearchHelper(Node* node, int data, int& comparaciones) {
+            comparaciones++;
+
+            if (node == nullptr) {
+                std::cout << "Clave " << data << " no encontrada despues de " << comparaciones << " comparaciones." << std::endl;
+                return node;
+            }
+            else if (data == node->data) {
+                std::cout << "Clave " << data << " encontrada en el nodo " << node->data  << " despues de " << comparaciones << " comparaciones." << std::endl;
                 return node;
             }
 
             if (data < node->data) {
-                return SearchHelper(node->left, data);
+                std::cout << "Buscando a la izquierda del nodo " << node->data << std::endl;
+                return SearchHelper(node->left, data, comparaciones);
             }
-            return SearchHelper(node->right, data);
+            std::cout << "Buscando a la derecha del nodo " << node->data << std::endl;
+            return SearchHelper(node->right, data, comparaciones);
         }
 
         void generateDotFile(Node* node, std::ofstream& file) {
@@ -329,7 +338,7 @@ class RedBlackTree {
         void Insert(int value);
         void remove(int value);
         void PrintTree();
-        Node* Search(int data);
+        Node* Search(int data, int& comparaciones);
 };
 
 #endif
