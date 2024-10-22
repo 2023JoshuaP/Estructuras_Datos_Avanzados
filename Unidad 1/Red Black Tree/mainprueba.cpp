@@ -16,7 +16,7 @@ int main() {
     std::srand(std::time(0));
 
     const int num_experimentos = 5;
-    for (int n = 10; n <= 10000; n += 100) {
+    for (int n = 100; n <= 10000; n += 100) {
         std::vector<double> comparaciones_acumuladas;
         std::vector<double> tiempos_acumulados;
 
