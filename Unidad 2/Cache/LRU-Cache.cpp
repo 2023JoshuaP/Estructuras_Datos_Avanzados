@@ -2,7 +2,7 @@
 
 int LRUCache::get(int key) {
     if (cache.find(key) != cache.end()) {
-        Node* node = cache[key];
+        NodeLRU* node = cache[key];
         if (node != head) {
             removeNode(node);
             moveToFront(node);
@@ -14,7 +14,7 @@ int LRUCache::get(int key) {
 
 void LRUCache::put(int key, int value) {
     if (cache.find(key) != cache.end()) {
-        Node* node = cache[key];
+        NodeLRU* node = cache[key];
         node->value = value;
         removeNode(node);
         moveToFront(node);
@@ -23,14 +23,14 @@ void LRUCache::put(int key, int value) {
         if (cache.size() == capacity) {
             removeTail();
         }
-        Node* newNode = new Node(key, value);
+        NodeLRU* newNode = new NodeLRU(key, value);
         moveToFront(newNode);
         cache[key] = newNode;
     }
 }
 
 void LRUCache::display() {
-    Node* current = head;
+    NodeLRU* current = head;
     cout << "Estado actual del cache: ";
     while (current) {
         cout << "(" << current->key << ", " << current->value << ") ";

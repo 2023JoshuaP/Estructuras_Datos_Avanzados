@@ -5,29 +5,29 @@
 #include <unordered_map>
 using namespace std;
 
-class Node {
+class NodeLRU {
     public:
         int key, value;
-        Node* prev;
-        Node* next;
-        Node(int k, int v): key(k), value(v), prev(nullptr), next(nullptr) {}
+        NodeLRU* prev;
+        NodeLRU* next;
+        NodeLRU(int k, int v): key(k), value(v), prev(nullptr), next(nullptr) {}
 };
 
 class LRUCache {
     private:
         int capacity;
-        unordered_map<int, Node*> cache;
-        Node* head;
-        Node* tail;
+        unordered_map<int, NodeLRU*> cache;
+        NodeLRU* head;
+        NodeLRU* tail;
 
-        void removeNode(Node* node) {
+        void removeNode(NodeLRU* node) {
             if (node->prev) node->prev->next = node->next;
             if (node->next) node->next->prev = node->prev;
             if (node == head) head = node->next;
             if (node == tail) tail = node->prev;
         }
 
-        void moveToFront(Node* node) {
+        void moveToFront(NodeLRU* node) {
             node->next = head;
             node->prev = nullptr;
             if (head) {
@@ -42,7 +42,7 @@ class LRUCache {
         void removeTail() {
             if (tail) {
                 cache.erase(tail->key);
-                Node* prevTail = tail;
+                NodeLRU* prevTail = tail;
                 tail = tail->prev;
                 if (tail) {
                     tail->next = nullptr;
@@ -59,7 +59,7 @@ class LRUCache {
 
         ~LRUCache() {
             while (head) {
-                Node* temp = head;
+                NodeLRU* temp = head;
                 head = head->next;
                 delete temp;
             }
