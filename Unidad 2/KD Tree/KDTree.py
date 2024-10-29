@@ -156,8 +156,6 @@ class KDTree:
         dot.render('kd_tree_range_search', format='png', cleanup=True)
         dot.view()
 
-from graphviz import Digraph
-
 class KDTreeMenu:
     def __init__(self):
         self.kdtree = KDTree(2)  # KD Tree de 2 dimensiones
