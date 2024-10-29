@@ -1,4 +1,5 @@
 from graphviz import Digraph
+import matplotlib.pyplot as plt
 
 class KDTree:
     class Node:
@@ -155,6 +156,39 @@ class KDTree:
             
         dot.render('kd_tree_range_search', format='png', cleanup=True)
         dot.view()
+    
+    def plot_2d_recursive(self, node, depth, min_bound, max_bound):
+        if node is None:
+            return
+
+        cd = depth % self.k  # Current division dimension (0 for x, 1 for y)
+        plt.plot(node.point[0], node.point[1], 'bo')
+        
+        # Draw the current division
+        if cd == 0:  # Divide by x
+            plt.plot([node.point[0], node.point[0]], [min_bound[1], max_bound[1]], 'r-')
+            # Recursion for left and right children with updated bounds
+            self.plot_2d_recursive(node.left, depth + 1, min_bound, [node.point[0], max_bound[1]])
+            self.plot_2d_recursive(node.right, depth + 1, [node.point[0], min_bound[1]], max_bound)
+        else:  # Divide by y
+            plt.plot([min_bound[0], max_bound[0]], [node.point[1], node.point[1]], 'g-')
+            # Recursion for top and bottom children with updated bounds
+            self.plot_2d_recursive(node.left, depth + 1, min_bound, [max_bound[0], node.point[1]])
+            self.plot_2d_recursive(node.right, depth + 1, [min_bound[0], node.point[1]], max_bound)
+    
+    def plot_2d(self):
+        plt.figure(figsize=(8, 8))
+        plt.xlim(0, 75)
+        plt.ylim(0, 75)
+
+        # Recursively plot the tree, starting with infinite bounds
+        self.plot_2d_recursive(self.root, 0, [0, 0], [75, 75])
+
+        plt.xlabel('X')
+        plt.ylabel('Y')
+        plt.title('2D KD-Tree')
+        plt.grid(True)
+        plt.show()
 
 class KDTreeMenu:
     def __init__(self):
@@ -167,7 +201,8 @@ class KDTreeMenu:
         print("3. Eliminar un punto")
         print("4. Búsqueda por rango")
         print("5. Visualizar el KD-Tree")
-        print("6. Salir")
+        print("6. Visualizar KD-Tree 2D")
+        print("7. Salir")
     
     def insert_point(self):
         point = list(map(int, input("Ingrese las coordenadas del punto (x, y): ").split()))
@@ -197,6 +232,10 @@ class KDTreeMenu:
         self.kdtree.plot_tree()
         print("El KD-Tree ha sido visualizado.")
     
+    def plot_2d_tree(self):
+        self.kdtree.plot_2d()
+        print("El KD-Tree ha sido visualizado en 2D.")
+    
     def run(self):
         while True:
             self.display_menu()
@@ -213,6 +252,8 @@ class KDTreeMenu:
             elif choice == '5':
                 self.plot_tree()
             elif choice == '6':
+                self.plot_2d_tree()
+            elif choice == '7':
                 print("Saliendo del menú KD-Tree.")
                 break
             else:
