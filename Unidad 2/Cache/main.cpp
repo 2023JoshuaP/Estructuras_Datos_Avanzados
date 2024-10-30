@@ -31,7 +31,7 @@ int main() {
     int cacheSize;
     int optionCache;
 
-    std::cout << "Ingrese la capacidad del LRU Cache: ";
+    std::cout << "Ingrese la capacidad del cache: ";
     std::cin >> cacheSize;
     std::cout << "Selecciona el tipo de cache:\n";
     std::cout << "1. LRU Cache\n";
@@ -113,6 +113,7 @@ int main() {
                     std::cin >> key;
                     std::cout << "El valor es: " << fifo.get(key) << std::endl;
                     fifo.display();
+                    break;
                 case 3:
                     std::cout << "Saliendo del programa...\n";
                     break;
