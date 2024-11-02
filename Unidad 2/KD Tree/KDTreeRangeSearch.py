@@ -1,4 +1,5 @@
 from graphviz import Digraph
+import timeit
 
 class KDTree:
     class Node:
@@ -51,7 +52,12 @@ class KDTree:
             return self.search_recursive(node.right, point, depth + 1)
     
     def search(self, point):
-        return self.search_recursive(self.root, point, 0)
+        start_time = timeit.default_timer()  # Inicio del temporizador
+        result = self.search_recursive(self.root, point, 0)
+        end_time = timeit.default_timer()  # Fin del temporizador
+        execution_time = end_time - start_time
+        print(f"Tiempo de ejecución de la búsqueda: {execution_time:.6f} segundos")
+        return result
 
     def find_min(self, node, d, depth):
         # Find the minimun node in the d-th dimension of the KD Tree
@@ -126,8 +132,12 @@ class KDTree:
             self.range_search_recursive(node.right, depth + 1, min_bound, max_bound, points_in_range)
     
     def range_search(self, min_bound, max_bound):
+        start_time = timeit.default_timer()
         points_in_range = []
         self.range_search_recursive(self.root, 0, min_bound, max_bound, points_in_range)
+        end_time = timeit.default_timer()
+        execution_time = end_time - start_time
+        print(f"Tiempo de ejecución de la búsqueda por rango: {execution_time:.6f} segundos")
         return points_in_range
         
     def add_edges(self, dot, node):
@@ -161,8 +171,26 @@ if __name__ == "__main__":
     kdtree = KDTree(2)
     
     points = [
-        [30, 40], [5, 25], [70, 70], [10, 12], [50, 30],
-        [35, 45]
+        [5, 10],
+        [15, 20],
+        [30, 30],
+        [25, 5],
+        [10, 15],
+        [12, 7],
+        [18, 12],
+        [22, 25],
+        [27, 18],
+        [3, 8],
+        [8, 12],
+        [14, 9],
+        [11, 14],
+        [16, 5],
+        [4, 6],
+        [9, 3],
+        [19, 17],
+        [13, 22],
+        [7, 11],
+        [20, 8]
     ]
     
     for point in points:
@@ -170,8 +198,15 @@ if __name__ == "__main__":
         
     kdtree.plot_tree()
     
-    min_bound = [10, 10]
-    max_bound = [40, 50]
+    search_point = [10, 19]
+    result = kdtree.search(search_point)
+    if result:
+        print(f"Point {search_point} found")
+    else:
+        print(f"Point {search_point} not found")
+    
+    min_bound = [1, 1]
+    max_bound = [20, 20]
     
     points_in_range = kdtree.range_search(min_bound, max_bound)
     
