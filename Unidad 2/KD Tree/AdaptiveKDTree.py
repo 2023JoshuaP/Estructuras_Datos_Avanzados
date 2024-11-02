@@ -1,6 +1,7 @@
 import numpy as np
 import timeit
 import matplotlib.pyplot as plt
+from graphviz import Digraph
 
 class AdaptiveKDTree:
     class Node:
@@ -44,6 +45,8 @@ class AdaptiveKDTree:
 
         plt.ioff()
         plt.show()
+        
+        adaptive_tree.visualize_tree()
 
     def search_recursive(self, node, point):
         if node is None:
@@ -119,12 +122,48 @@ class AdaptiveKDTree:
         plt.grid(True)
         plt.draw()
 
-# Ejemplo de uso
+    def visualize_tree(self):
+        dot = Digraph()
+        self._add_nodes_edges(self.root, dot)
+        dot.render("kdtree", format="png", view=True)
+
+    def _add_nodes_edges(self, node, dot, parent_id=None, edge_label=""):
+        if node is not None:
+            node_id = str(id(node))
+            label = f"{node.point}"
+            dot.node(node_id, label)
+
+            if parent_id is not None:
+                dot.edge(parent_id, node_id, label=edge_label)
+
+            self._add_nodes_edges(node.left, dot, node_id, edge_label="left")
+            self._add_nodes_edges(node.right, dot, node_id, edge_label="right")
+
 if __name__ == "__main__":
     points = [
-        [3, 6], [17, 15], [13, 15], [6, 12], [9, 1], [2, 7], [10, 19]
+        [5, 10],
+        [15, 20],
+        [30, 30],
+        [25, 5],
+        [10, 15],
+        [12, 7],
+        [18, 12],
+        [22, 25],
+        [27, 18],
+        [3, 8],
+        [8, 12],
+        [14, 9],
+        [11, 14],
+        [16, 5],
+        [4, 6],
+        [9, 3],
+        [19, 17],
+        [13, 22],
+        [7, 11],
+        [20, 8]
     ]
     adaptive_tree = AdaptiveKDTree(2)
+    
     adaptive_tree.insert_points(points, show_step=True)
 
     point_to_search = [10, 15]
