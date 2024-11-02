@@ -125,7 +125,7 @@ class AdaptiveKDTree:
     def visualize_tree(self):
         dot = Digraph()
         self._add_nodes_edges(self.root, dot)
-        dot.render("kdtree", format="png", view=True)
+        dot.render("adaptive-kdtree", format="png", view=True)
 
     def _add_nodes_edges(self, node, dot, parent_id=None, edge_label=""):
         if node is not None:
