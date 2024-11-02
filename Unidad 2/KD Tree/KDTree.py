@@ -1,5 +1,6 @@
 from graphviz import Digraph
 import matplotlib.pyplot as plt
+import timeit
 
 class KDTree:
     class Node:
@@ -13,14 +14,13 @@ class KDTree:
         self.root = None
     
     def insert_recursive(self, node, point, depth):
-        # Debug message
         print(f"Inserting point {point} at depth {depth}")
         
         if node is None:
             print(f"Inserted into a new node: {point}")
             return self.Node(point)
 
-        cd = depth % self.k # Current dimension
+        cd = depth % self.k
         
         if point[cd] < node.point[cd]:
             node.left = self.insert_recursive(node.left, point, depth + 1)
@@ -55,7 +55,6 @@ class KDTree:
         return self.search_recursive(self.root, point, 0)
 
     def find_min(self, node, d, depth):
-        # Find the minimun node in the d-th dimension of the KD Tree
         if node is None:
             return None
         
@@ -82,27 +81,22 @@ class KDTree:
             return None
         
         cd = depth % self.k
-        
-        # If the node to be deleted is found
+
         if node.point == point:
-            # Case 1: Node with right child
             if node.right is not None:
                 min_node = self.find_min(node.right, cd, depth + 1)
                 node.point = min_node.point
                 node.right = self.delete_recursive(node.right, min_node.point, depth + 1)
-            # Case 2: Node with left child
             elif node.left is not None:
                 min_node = self.find_min(node.left, cd, depth + 1)
                 node.point = min_node.point
                 node.right = self.delete_recursive(node.left, min_node.point, depth + 1)
                 node.left = None
-            # Case 3: Leaf node
             else:
                 return None
             
             return node
 
-        # Recursively search for the node to be deleted
         if point[cd] < node.point[cd]:
             node.left = self.delete_recursive(node.left, point, depth + 1)
         else:
@@ -127,18 +121,20 @@ class KDTree:
             self.range_search_recursive(node.right, depth + 1, min_bound, max_bound, points_in_range)
     
     def range_search(self, min_bound, max_bound):
+        start_time = timeit.default_timer()
         points_in_range = []
         self.range_search_recursive(self.root, 0, min_bound, max_bound, points_in_range)
+        end_time = timeit.default_timer()
+        execution_time = end_time - start_time
+        print(f"Tiempo de ejecución de la búsqueda por rango: {execution_time:.6f} segundos")
         return points_in_range
         
     def add_edges(self, dot, node):
         if node is None:
             return
         
-        # Add the current node
         dot.node(str(node.point), f"x: {node.point[0]},\ny: {node.point[1]}")
         
-        # Add edges to the left and right subtrees
         if node.left is not None:
             dot.edge(str(node.point), str(node.left.point), label="left")
             self.add_edges(dot, node.left)
@@ -150,7 +146,6 @@ class KDTree:
     def plot_tree(self):
         dot = Digraph()
         
-        # Create the graph from the root
         if self.root is not None:
             self.add_edges(dot, self.root)
             
@@ -161,18 +156,15 @@ class KDTree:
         if node is None:
             return
 
-        cd = depth % self.k  # Current division dimension (0 for x, 1 for y)
+        cd = depth % self.k
         plt.plot(node.point[0], node.point[1], 'bo')
         
-        # Draw the current division
-        if cd == 0:  # Divide by x
+        if cd == 0:
             plt.plot([node.point[0], node.point[0]], [min_bound[1], max_bound[1]], 'r-')
-            # Recursion for left and right children with updated bounds
             self.plot_2d_recursive(node.left, depth + 1, min_bound, [node.point[0], max_bound[1]])
             self.plot_2d_recursive(node.right, depth + 1, [node.point[0], min_bound[1]], max_bound)
-        else:  # Divide by y
+        else:
             plt.plot([min_bound[0], max_bound[0]], [node.point[1], node.point[1]], 'g-')
-            # Recursion for top and bottom children with updated bounds
             self.plot_2d_recursive(node.left, depth + 1, min_bound, [max_bound[0], node.point[1]])
             self.plot_2d_recursive(node.right, depth + 1, [min_bound[0], node.point[1]], max_bound)
     
@@ -181,7 +173,6 @@ class KDTree:
         plt.xlim(0, 75)
         plt.ylim(0, 75)
 
-        # Recursively plot the tree, starting with infinite bounds
         self.plot_2d_recursive(self.root, 0, [0, 0], [75, 75])
 
         plt.xlabel('X')
@@ -192,7 +183,7 @@ class KDTree:
 
 class KDTreeMenu:
     def __init__(self):
-        self.kdtree = KDTree(2)  # KD Tree de 2 dimensiones
+        self.kdtree = KDTree(2)
     
     def display_menu(self):
         print("\n--- Menú KD-Tree ---")
