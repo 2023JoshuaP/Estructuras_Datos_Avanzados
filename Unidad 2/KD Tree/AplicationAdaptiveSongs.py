@@ -205,7 +205,7 @@ def menu_principal():
                     print("Debe realizar una busqueda primero (op 1)\n")
 
             elif opcion == 3:
-                print("Chauuuuuu")
+                print("Gracias por usar el programa")
                 break
 
             else:
