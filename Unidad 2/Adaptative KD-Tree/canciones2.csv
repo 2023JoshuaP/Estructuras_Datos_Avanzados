@@ -1,0 +1,501 @@
+Título,Artista,Género,BPM,Energía,Danza,Valencia
+Blinding Lights,The Weeknd,Rock,81,0.51,0.94,0.69
+Shape of You,Ed Sheeran,Jazz,89,0.95,0.65,0.95
+Levitating,Dua Lipa,Reggaeton,122,0.46,0.43,0.73
+Bad Guy,Billie Eilish,Pop,63,0.7,0.35,0.26
+Uptown Funk,Mark Ronson ft. Bruno Mars,Reggaeton,136,0.53,0.79,0.48
+Rolling in the Deep,Adele,Rock,118,0.42,0.57,0.64
+Stay,The Kid LAROI & Justin Bieber,Reggaeton,146,0.42,0.88,0.52
+Don't Start Now,Dua Lipa,Clásica,67,0.51,0.76,0.87
+Peaches,Justin Bieber ft. Daniel Caesar,Pop,141,0.92,0.86,0.85
+Old Town Road,Lil Nas X,Rock,71,0.57,0.49,0.69
+Dance Monkey,Tones and I,Rock,178,0.97,0.78,0.5
+Senorita,Shawn Mendes & Camila Cabello,Jazz,90,0.75,0.48,0.4
+Rockstar,Post Malone,Jazz,137,0.66,0.96,0.28
+Sunflower,Post Malone & Swae Lee,Clásica,93,0.75,0.75,0.48
+Closer,The Chainsmokers ft. Halsey,Rock,141,0.71,0.53,0.53
+Believer,Imagine Dragons,Electrónica,179,0.86,0.49,0.74
+Stressed Out,Twenty One Pilots,Rock,157,0.57,0.43,0.73
+Sorry,Justin Bieber,Jazz,134,0.61,0.79,0.26
+Perfect,Ed Sheeran,Electrónica,164,0.94,0.45,0.52
+Thinking Out Loud,Ed Sheeran,Pop,135,0.97,0.72,0.35
+Shallow,Lady Gaga & Bradley Cooper,Pop,108,0.94,0.49,0.33
+Happy,Pharrell Williams,Reggaeton,138,0.65,0.76,0.86
+Someone Like You,Adele,Hip-Hop,116,0.87,0.87,0.23
+Savage Love,Jawsh 685 & Jason Derulo,Jazz,154,0.69,0.84,0.54
+Despacito,Luis Fonsi ft. Daddy Yankee,Hip-Hop,172,0.7,0.83,0.33
+One Dance,Drake,Electrónica,152,0.52,0.43,0.9
+God's Plan,Drake,Jazz,85,0.75,0.36,0.65
+Circles,Post Malone,Clásica,77,0.51,0.79,0.39
+Bad Habits,Ed Sheeran,Rock,155,0.6,0.56,0.6
+Memories,Maroon 5,Clásica,145,0.91,0.6,0.79
+Faded,Alan Walker,Electrónica,97,0.52,0.32,0.97
+Cheap Thrills,Sia,Jazz,140,0.44,0.48,0.38
+Havana,Camila Cabello,R&B,146,0.44,0.32,0.91
+Love Yourself,Justin Bieber,Electrónica,147,0.96,0.92,0.95
+"Thank U, Next",Ariana Grande,R&B,109,0.7,0.47,0.93
+Taki Taki,DJ Snake ft. Selena Gomez,Rock,67,0.65,0.69,0.71
+Lucid Dreams,Juice WRLD,Pop,100,0.89,0.33,0.7
+Rockabye,Clean Bandit ft. Anne-Marie,Pop,65,0.9,0.77,0.52
+Finesse,Bruno Mars ft. Cardi B,Electrónica,128,0.6,0.53,0.8
+In My Feelings,Drake,Hip-Hop,103,0.82,0.93,0.63
+7 rings,Ariana Grande,Jazz,123,0.86,0.92,0.74
+Without Me,Halsey,Jazz,88,0.79,0.53,0.54
+Dynamite,BTS,Pop,87,0.49,0.93,0.79
+Yummy,Justin Bieber,Reggaeton,70,0.93,1.0,0.86
+I Gotta Feeling,The Black Eyed Peas,Clásica,124,0.72,0.88,0.32
+Take Me to Church,Hozier,Reggaeton,166,0.57,0.89,0.87
+Sucker,Jonas Brothers,Rock,78,0.66,0.47,0.63
+Sorry Not Sorry,Demi Lovato,Clásica,68,0.42,0.7,0.88
+Photograph,Ed Sheeran,Clásica,86,0.48,0.35,0.55
+No Tears Left to Cry,Ariana Grande,Electrónica,93,0.86,0.37,0.5
+Blinding Lights,The Weeknd,Pop,103,0.4,1.0,0.93
+Shape of You,Ed Sheeran,Reggaeton,127,0.65,0.53,0.4
+Levitating,Dua Lipa,Reggaeton,159,0.71,0.82,0.88
+Bad Guy,Billie Eilish,Pop,141,0.43,0.86,0.59
+Uptown Funk,Mark Ronson ft. Bruno Mars,Reggaeton,74,0.98,0.9,0.61
+Rolling in the Deep,Adele,R&B,110,0.54,1.0,0.45
+Stay,The Kid LAROI & Justin Bieber,Pop,72,0.58,0.47,0.66
+Don't Start Now,Dua Lipa,Electrónica,142,0.58,0.33,0.46
+Peaches,Justin Bieber ft. Daniel Caesar,Hip-Hop,108,0.54,0.59,0.23
+Old Town Road,Lil Nas X,Clásica,129,0.4,0.39,0.42
+Dance Monkey,Tones and I,Electrónica,171,0.84,0.32,0.21
+Senorita,Shawn Mendes & Camila Cabello,Jazz,115,0.98,0.55,0.98
+Rockstar,Post Malone,Rock,135,0.53,0.85,0.97
+Sunflower,Post Malone & Swae Lee,Hip-Hop,110,0.8,0.7,0.52
+Closer,The Chainsmokers ft. Halsey,Jazz,96,0.85,0.52,0.78
+Believer,Imagine Dragons,Clásica,76,0.91,0.76,0.48
+Stressed Out,Twenty One Pilots,Reggaeton,117,0.65,0.46,0.74
+Sorry,Justin Bieber,Pop,146,0.58,0.31,0.84
+Perfect,Ed Sheeran,Clásica,149,0.6,0.84,0.96
+Thinking Out Loud,Ed Sheeran,Electrónica,88,0.83,0.74,0.52
+Shallow,Lady Gaga & Bradley Cooper,Rock,92,0.89,0.83,0.83
+Happy,Pharrell Williams,Electrónica,119,0.51,0.33,0.41
+Someone Like You,Adele,Hip-Hop,150,0.62,0.89,0.99
+Savage Love,Jawsh 685 & Jason Derulo,Hip-Hop,148,0.94,0.73,0.22
+Despacito,Luis Fonsi ft. Daddy Yankee,Rock,179,0.88,0.69,0.68
+One Dance,Drake,R&B,114,0.99,0.74,0.73
+God's Plan,Drake,Jazz,69,0.85,0.91,0.75
+Circles,Post Malone,Jazz,106,0.64,0.71,0.3
+Bad Habits,Ed Sheeran,Hip-Hop,82,0.75,0.71,0.95
+Memories,Maroon 5,Hip-Hop,144,0.8,0.99,0.34
+Faded,Alan Walker,Reggaeton,80,0.45,0.83,0.7
+Cheap Thrills,Sia,Pop,166,0.73,0.61,0.38
+Havana,Camila Cabello,Reggaeton,72,0.83,0.8,0.45
+Love Yourself,Justin Bieber,Reggaeton,160,0.5,0.57,0.64
+"Thank U, Next",Ariana Grande,R&B,92,0.87,0.46,0.53
+Taki Taki,DJ Snake ft. Selena Gomez,Jazz,83,0.75,0.72,0.33
+Lucid Dreams,Juice WRLD,R&B,167,0.97,0.95,0.34
+Rockabye,Clean Bandit ft. Anne-Marie,R&B,70,0.43,0.95,0.53
+Finesse,Bruno Mars ft. Cardi B,Rock,76,0.56,0.54,0.81
+In My Feelings,Drake,Jazz,127,0.76,0.67,0.92
+7 rings,Ariana Grande,Pop,106,0.58,0.45,0.27
+Without Me,Halsey,Electrónica,84,0.83,1.0,0.51
+Dynamite,BTS,Hip-Hop,153,0.86,0.99,0.28
+Yummy,Justin Bieber,Hip-Hop,132,0.46,0.75,0.21
+I Gotta Feeling,The Black Eyed Peas,Pop,80,0.71,0.86,0.73
+Take Me to Church,Hozier,R&B,143,0.71,0.8,0.68
+Sucker,Jonas Brothers,Reggaeton,142,0.62,0.72,0.33
+Sorry Not Sorry,Demi Lovato,Rock,142,0.96,0.34,0.39
+Photograph,Ed Sheeran,R&B,71,0.9,0.62,0.22
+No Tears Left to Cry,Ariana Grande,Hip-Hop,96,0.82,0.77,0.87
+Blinding Lights,The Weeknd,Clásica,101,0.83,0.77,0.98
+Shape of You,Ed Sheeran,Reggaeton,76,0.68,0.56,0.31
+Levitating,Dua Lipa,Hip-Hop,160,0.95,0.96,0.39
+Bad Guy,Billie Eilish,Clásica,177,0.82,0.42,0.89
+Uptown Funk,Mark Ronson ft. Bruno Mars,R&B,107,0.84,0.65,0.94
+Rolling in the Deep,Adele,Pop,162,0.92,0.78,0.54
+Stay,The Kid LAROI & Justin Bieber,Pop,87,0.56,0.79,0.24
+Don't Start Now,Dua Lipa,Reggaeton,100,0.88,0.75,0.23
+Peaches,Justin Bieber ft. Daniel Caesar,Hip-Hop,158,0.52,0.49,0.66
+Old Town Road,Lil Nas X,Jazz,106,0.61,0.41,0.51
+Dance Monkey,Tones and I,Clásica,171,0.6,0.75,0.22
+Senorita,Shawn Mendes & Camila Cabello,Rock,77,0.99,0.72,0.67
+Rockstar,Post Malone,Hip-Hop,137,0.91,0.43,0.21
+Sunflower,Post Malone & Swae Lee,Rock,158,0.82,0.79,0.83
+Closer,The Chainsmokers ft. Halsey,Hip-Hop,167,0.84,0.62,0.45
+Believer,Imagine Dragons,Jazz,164,0.74,0.77,0.23
+Stressed Out,Twenty One Pilots,Jazz,130,0.97,0.89,0.67
+Sorry,Justin Bieber,Reggaeton,164,0.7,0.42,0.52
+Perfect,Ed Sheeran,Reggaeton,72,0.63,0.31,0.98
+Thinking Out Loud,Ed Sheeran,Jazz,141,0.5,0.85,0.64
+Shallow,Lady Gaga & Bradley Cooper,Electrónica,160,0.87,0.73,0.42
+Happy,Pharrell Williams,Jazz,72,0.84,0.79,0.77
+Someone Like You,Adele,Pop,159,0.63,0.89,0.42
+Savage Love,Jawsh 685 & Jason Derulo,Pop,90,0.42,0.86,0.92
+Despacito,Luis Fonsi ft. Daddy Yankee,Electrónica,61,0.9,0.97,0.5
+One Dance,Drake,R&B,75,0.41,0.68,0.64
+God's Plan,Drake,Clásica,68,0.82,0.64,0.24
+Circles,Post Malone,R&B,132,0.98,0.58,0.54
+Bad Habits,Ed Sheeran,Rock,97,0.66,0.41,0.87
+Memories,Maroon 5,R&B,134,0.54,0.7,0.84
+Faded,Alan Walker,Hip-Hop,113,0.82,0.49,0.38
+Cheap Thrills,Sia,R&B,115,0.89,0.94,0.38
+Havana,Camila Cabello,Hip-Hop,145,0.73,0.71,0.85
+Love Yourself,Justin Bieber,Electrónica,156,0.98,0.71,0.94
+"Thank U, Next",Ariana Grande,Pop,159,0.43,0.55,0.28
+Taki Taki,DJ Snake ft. Selena Gomez,Reggaeton,168,0.7,0.34,0.56
+Lucid Dreams,Juice WRLD,Hip-Hop,146,0.83,0.32,0.47
+Rockabye,Clean Bandit ft. Anne-Marie,Pop,104,0.92,0.6,0.9
+Finesse,Bruno Mars ft. Cardi B,Clásica,168,0.51,0.36,0.27
+In My Feelings,Drake,Rock,93,0.88,0.72,0.37
+7 rings,Ariana Grande,Clásica,68,0.73,0.92,0.8
+Without Me,Halsey,Electrónica,147,0.64,0.92,0.24
+Dynamite,BTS,R&B,67,0.48,0.76,0.59
+Yummy,Justin Bieber,R&B,66,0.92,0.45,0.55
+I Gotta Feeling,The Black Eyed Peas,Jazz,95,0.49,0.9,0.47
+Take Me to Church,Hozier,Jazz,77,0.59,0.92,0.52
+Sucker,Jonas Brothers,Jazz,62,0.57,0.44,0.62
+Sorry Not Sorry,Demi Lovato,Clásica,87,0.92,0.82,0.33
+Photograph,Ed Sheeran,Hip-Hop,129,0.8,0.5,0.66
+No Tears Left to Cry,Ariana Grande,Rock,167,0.88,0.86,0.84
+Blinding Lights,The Weeknd,Jazz,103,0.55,1.0,0.81
+Shape of You,Ed Sheeran,Electrónica,80,0.77,0.32,0.32
+Levitating,Dua Lipa,Electrónica,87,0.74,0.93,0.32
+Bad Guy,Billie Eilish,Jazz,163,0.9,0.74,0.41
+Uptown Funk,Mark Ronson ft. Bruno Mars,R&B,113,0.94,0.98,0.49
+Rolling in the Deep,Adele,Jazz,113,0.41,0.63,0.53
+Stay,The Kid LAROI & Justin Bieber,Rock,124,0.8,0.89,0.74
+Don't Start Now,Dua Lipa,Jazz,159,0.43,0.34,0.25
+Peaches,Justin Bieber ft. Daniel Caesar,Rock,80,0.73,0.53,0.23
+Old Town Road,Lil Nas X,Electrónica,166,0.57,0.35,0.51
+Dance Monkey,Tones and I,Jazz,158,0.58,0.98,0.76
+Senorita,Shawn Mendes & Camila Cabello,Clásica,72,0.61,0.87,0.35
+Rockstar,Post Malone,Reggaeton,116,0.77,0.9,0.71
+Sunflower,Post Malone & Swae Lee,Clásica,108,0.6,0.96,0.41
+Closer,The Chainsmokers ft. Halsey,Electrónica,177,0.84,0.36,0.91
+Believer,Imagine Dragons,Rock,113,0.64,0.57,0.92
+Stressed Out,Twenty One Pilots,Clásica,69,0.44,0.35,0.44
+Sorry,Justin Bieber,Rock,112,0.87,0.45,0.38
+Perfect,Ed Sheeran,Clásica,103,0.57,0.46,0.53
+Thinking Out Loud,Ed Sheeran,Clásica,106,0.66,0.63,0.39
+Shallow,Lady Gaga & Bradley Cooper,Rock,112,0.81,0.49,0.74
+Happy,Pharrell Williams,Hip-Hop,133,0.6,0.37,0.86
+Someone Like You,Adele,Clásica,105,0.43,0.42,0.74
+Savage Love,Jawsh 685 & Jason Derulo,Jazz,72,0.62,0.4,0.86
+Despacito,Luis Fonsi ft. Daddy Yankee,Reggaeton,96,0.97,0.98,0.52
+One Dance,Drake,Electrónica,161,0.79,0.83,0.33
+God's Plan,Drake,Hip-Hop,83,0.8,0.98,0.79
+Circles,Post Malone,Rock,61,0.78,0.61,0.49
+Bad Habits,Ed Sheeran,Hip-Hop,145,0.52,0.49,0.74
+Memories,Maroon 5,Pop,140,0.65,0.86,0.42
+Faded,Alan Walker,Pop,159,0.85,0.53,0.26
+Cheap Thrills,Sia,Clásica,73,0.46,0.51,0.99
+Havana,Camila Cabello,Clásica,69,0.57,0.46,0.32
+Love Yourself,Justin Bieber,Jazz,94,0.57,0.39,0.99
+"Thank U, Next",Ariana Grande,Reggaeton,84,0.66,0.48,0.98
+Taki Taki,DJ Snake ft. Selena Gomez,Electrónica,62,0.99,0.55,0.84
+Lucid Dreams,Juice WRLD,Hip-Hop,170,0.44,0.77,0.73
+Rockabye,Clean Bandit ft. Anne-Marie,Pop,161,0.71,0.34,0.66
+Finesse,Bruno Mars ft. Cardi B,Clásica,76,0.51,0.45,0.89
+In My Feelings,Drake,R&B,71,0.98,0.87,0.43
+7 rings,Ariana Grande,R&B,113,0.47,0.4,0.57
+Without Me,Halsey,Electrónica,175,0.64,0.54,0.7
+Dynamite,BTS,Hip-Hop,83,0.84,0.91,0.53
+Yummy,Justin Bieber,Clásica,88,0.82,0.41,0.54
+I Gotta Feeling,The Black Eyed Peas,Clásica,102,0.65,0.36,0.46
+Take Me to Church,Hozier,Pop,84,0.61,0.64,0.65
+Sucker,Jonas Brothers,Pop,159,0.64,0.51,0.88
+Sorry Not Sorry,Demi Lovato,Clásica,119,0.56,0.69,0.36
+Photograph,Ed Sheeran,Rock,149,0.52,0.86,0.95
+No Tears Left to Cry,Ariana Grande,Clásica,161,0.69,0.4,0.75
+Blinding Lights,The Weeknd,Electrónica,124,0.56,0.71,0.86
+Shape of You,Ed Sheeran,Clásica,143,0.57,0.65,0.64
+Levitating,Dua Lipa,Jazz,178,0.79,0.4,0.82
+Bad Guy,Billie Eilish,Reggaeton,87,0.98,0.74,0.21
+Uptown Funk,Mark Ronson ft. Bruno Mars,Jazz,75,0.76,0.49,0.85
+Rolling in the Deep,Adele,Jazz,106,0.45,0.64,0.23
+Stay,The Kid LAROI & Justin Bieber,Rock,140,0.45,0.36,0.91
+Don't Start Now,Dua Lipa,Rock,163,0.97,0.62,0.99
+Peaches,Justin Bieber ft. Daniel Caesar,R&B,151,0.58,0.51,0.44
+Old Town Road,Lil Nas X,Clásica,117,0.46,0.88,0.37
+Dance Monkey,Tones and I,Jazz,135,0.76,0.34,0.81
+Senorita,Shawn Mendes & Camila Cabello,Rock,86,0.77,0.59,0.4
+Rockstar,Post Malone,Pop,177,0.79,0.62,0.89
+Sunflower,Post Malone & Swae Lee,Clásica,112,0.56,0.81,0.28
+Closer,The Chainsmokers ft. Halsey,Electrónica,101,0.41,0.7,0.3
+Believer,Imagine Dragons,Reggaeton,118,0.98,0.77,0.98
+Stressed Out,Twenty One Pilots,Hip-Hop,106,0.55,0.84,0.74
+Sorry,Justin Bieber,Clásica,153,0.81,0.9,0.88
+Perfect,Ed Sheeran,Hip-Hop,164,0.82,0.52,0.46
+Thinking Out Loud,Ed Sheeran,Jazz,93,0.77,0.68,0.74
+Shallow,Lady Gaga & Bradley Cooper,Reggaeton,96,0.59,0.89,0.68
+Happy,Pharrell Williams,Hip-Hop,65,0.56,0.99,0.68
+Someone Like You,Adele,Jazz,66,0.76,0.92,0.75
+Savage Love,Jawsh 685 & Jason Derulo,Pop,155,0.92,0.56,0.66
+Despacito,Luis Fonsi ft. Daddy Yankee,Hip-Hop,155,0.97,0.44,0.54
+One Dance,Drake,Reggaeton,176,0.46,0.64,0.42
+God's Plan,Drake,R&B,84,0.49,0.82,0.81
+Circles,Post Malone,Clásica,92,0.97,0.64,0.38
+Bad Habits,Ed Sheeran,Jazz,114,0.84,0.64,0.75
+Memories,Maroon 5,Clásica,117,0.93,0.89,0.39
+Faded,Alan Walker,Reggaeton,66,0.52,0.55,0.7
+Cheap Thrills,Sia,Rock,175,0.75,0.9,0.8
+Havana,Camila Cabello,Jazz,116,0.82,0.58,0.37
+Love Yourself,Justin Bieber,Hip-Hop,71,0.81,0.53,0.25
+"Thank U, Next",Ariana Grande,Jazz,75,0.64,0.62,0.3
+Taki Taki,DJ Snake ft. Selena Gomez,Clásica,139,0.41,0.83,0.68
+Lucid Dreams,Juice WRLD,Pop,102,0.75,0.39,0.88
+Rockabye,Clean Bandit ft. Anne-Marie,Jazz,176,0.55,0.44,0.24
+Finesse,Bruno Mars ft. Cardi B,Hip-Hop,159,0.67,0.97,0.79
+In My Feelings,Drake,Rock,136,0.97,0.42,0.47
+7 rings,Ariana Grande,R&B,66,0.64,0.7,0.58
+Without Me,Halsey,Electrónica,159,0.9,0.71,0.94
+Dynamite,BTS,Pop,170,0.51,0.64,0.47
+Yummy,Justin Bieber,R&B,110,0.8,0.75,0.57
+I Gotta Feeling,The Black Eyed Peas,Rock,132,0.99,0.46,0.21
+Take Me to Church,Hozier,Jazz,91,0.46,0.69,0.27
+Sucker,Jonas Brothers,Clásica,134,0.4,0.56,0.41
+Sorry Not Sorry,Demi Lovato,Reggaeton,67,0.66,0.76,0.22
+Photograph,Ed Sheeran,Clásica,156,0.46,0.4,0.71
+No Tears Left to Cry,Ariana Grande,R&B,146,0.85,0.7,0.54
+Blinding Lights,The Weeknd,Hip-Hop,148,0.95,0.43,0.64
+Shape of You,Ed Sheeran,Clásica,179,0.66,0.5,0.34
+Levitating,Dua Lipa,Pop,131,0.56,0.45,0.44
+Bad Guy,Billie Eilish,Clásica,104,0.66,0.43,0.73
+Uptown Funk,Mark Ronson ft. Bruno Mars,Hip-Hop,145,0.83,0.88,0.97
+Rolling in the Deep,Adele,Electrónica,118,0.41,0.5,0.24
+Stay,The Kid LAROI & Justin Bieber,Jazz,63,0.75,0.95,0.91
+Don't Start Now,Dua Lipa,Reggaeton,163,0.77,0.98,0.66
+Peaches,Justin Bieber ft. Daniel Caesar,R&B,126,0.78,0.7,0.65
+Old Town Road,Lil Nas X,Jazz,88,0.55,0.4,0.6
+Dance Monkey,Tones and I,Clásica,164,0.83,0.56,0.26
+Senorita,Shawn Mendes & Camila Cabello,Rock,88,0.45,0.86,0.27
+Rockstar,Post Malone,Jazz,157,0.52,0.56,0.68
+Sunflower,Post Malone & Swae Lee,Electrónica,157,0.93,0.36,0.47
+Closer,The Chainsmokers ft. Halsey,Clásica,87,0.84,0.69,0.93
+Believer,Imagine Dragons,Reggaeton,136,0.41,0.89,0.53
+Stressed Out,Twenty One Pilots,Hip-Hop,138,0.55,0.86,0.31
+Sorry,Justin Bieber,Electrónica,146,0.53,0.42,0.77
+Perfect,Ed Sheeran,Clásica,103,0.56,0.77,0.43
+Thinking Out Loud,Ed Sheeran,Electrónica,149,0.55,0.45,0.62
+Shallow,Lady Gaga & Bradley Cooper,Jazz,63,0.44,0.45,0.76
+Happy,Pharrell Williams,Reggaeton,149,0.68,0.91,0.92
+Someone Like You,Adele,Hip-Hop,163,0.84,0.47,0.83
+Savage Love,Jawsh 685 & Jason Derulo,Clásica,68,0.76,0.48,0.74
+Despacito,Luis Fonsi ft. Daddy Yankee,Pop,178,0.8,0.3,0.74
+One Dance,Drake,R&B,64,0.45,0.91,0.96
+God's Plan,Drake,Hip-Hop,115,0.97,0.85,0.44
+Circles,Post Malone,Pop,155,0.9,0.74,0.2
+Bad Habits,Ed Sheeran,Electrónica,143,0.88,0.83,0.42
+Memories,Maroon 5,Rock,109,0.89,0.41,0.37
+Faded,Alan Walker,Hip-Hop,134,0.96,0.62,0.73
+Cheap Thrills,Sia,Electrónica,74,0.73,0.55,0.71
+Havana,Camila Cabello,Pop,91,0.52,0.37,0.67
+Love Yourself,Justin Bieber,Jazz,87,0.77,0.64,0.21
+"Thank U, Next",Ariana Grande,Jazz,81,0.85,0.94,0.78
+Taki Taki,DJ Snake ft. Selena Gomez,Rock,164,0.84,0.33,0.46
+Lucid Dreams,Juice WRLD,R&B,76,0.71,0.5,0.73
+Rockabye,Clean Bandit ft. Anne-Marie,Hip-Hop,118,0.44,0.45,0.65
+Finesse,Bruno Mars ft. Cardi B,Hip-Hop,149,0.62,0.47,0.47
+In My Feelings,Drake,Hip-Hop,167,0.95,0.94,0.31
+7 rings,Ariana Grande,R&B,130,0.75,0.63,0.28
+Without Me,Halsey,Electrónica,165,0.72,0.63,0.87
+Dynamite,BTS,Reggaeton,116,0.56,0.83,0.93
+Yummy,Justin Bieber,Reggaeton,85,0.62,0.41,0.72
+I Gotta Feeling,The Black Eyed Peas,Rock,84,0.94,0.64,0.28
+Take Me to Church,Hozier,Hip-Hop,69,0.8,0.6,0.52
+Sucker,Jonas Brothers,Electrónica,104,0.87,0.72,0.78
+Sorry Not Sorry,Demi Lovato,Jazz,142,0.67,1.0,0.82
+Photograph,Ed Sheeran,Pop,70,0.78,0.84,0.29
+No Tears Left to Cry,Ariana Grande,Electrónica,136,0.55,0.58,0.2
+Blinding Lights,The Weeknd,R&B,112,0.82,0.88,0.77
+Shape of You,Ed Sheeran,Reggaeton,131,0.66,0.42,0.49
+Levitating,Dua Lipa,Reggaeton,163,0.67,0.32,0.4
+Bad Guy,Billie Eilish,Jazz,127,0.79,0.44,0.21
+Uptown Funk,Mark Ronson ft. Bruno Mars,Jazz,170,0.96,0.54,0.63
+Rolling in the Deep,Adele,R&B,154,0.44,0.66,0.88
+Stay,The Kid LAROI & Justin Bieber,Pop,87,0.89,0.73,0.97
+Don't Start Now,Dua Lipa,Jazz,134,0.58,0.94,0.65
+Peaches,Justin Bieber ft. Daniel Caesar,Rock,166,0.67,0.66,0.61
+Old Town Road,Lil Nas X,Pop,124,0.41,0.65,0.27
+Dance Monkey,Tones and I,Jazz,108,0.58,0.34,0.64
+Senorita,Shawn Mendes & Camila Cabello,Clásica,106,0.7,0.32,0.5
+Rockstar,Post Malone,Electrónica,111,0.43,0.69,0.69
+Sunflower,Post Malone & Swae Lee,Jazz,161,0.69,0.61,0.51
+Closer,The Chainsmokers ft. Halsey,Rock,147,0.96,0.89,0.39
+Believer,Imagine Dragons,Hip-Hop,113,0.46,0.41,0.28
+Stressed Out,Twenty One Pilots,Jazz,119,0.86,0.32,0.45
+Sorry,Justin Bieber,Reggaeton,116,0.65,0.61,0.28
+Perfect,Ed Sheeran,Reggaeton,106,0.79,0.47,0.34
+Thinking Out Loud,Ed Sheeran,Reggaeton,90,0.56,0.33,0.99
+Shallow,Lady Gaga & Bradley Cooper,Hip-Hop,164,0.5,0.81,0.56
+Happy,Pharrell Williams,Reggaeton,105,0.5,0.38,0.63
+Someone Like You,Adele,Clásica,173,0.44,0.73,0.9
+Savage Love,Jawsh 685 & Jason Derulo,Jazz,85,0.51,0.5,1.0
+Despacito,Luis Fonsi ft. Daddy Yankee,R&B,172,0.8,0.42,0.67
+One Dance,Drake,Reggaeton,173,0.93,0.57,0.85
+God's Plan,Drake,Pop,64,0.89,0.86,0.46
+Circles,Post Malone,R&B,143,0.81,0.57,0.44
+Bad Habits,Ed Sheeran,Hip-Hop,111,0.47,0.83,0.52
+Memories,Maroon 5,Clásica,164,0.57,0.39,0.74
+Faded,Alan Walker,Pop,134,0.59,0.84,0.75
+Cheap Thrills,Sia,Pop,179,0.55,0.47,0.45
+Havana,Camila Cabello,Pop,113,0.71,0.77,0.31
+Love Yourself,Justin Bieber,Pop,92,0.72,0.7,0.71
+"Thank U, Next",Ariana Grande,R&B,109,0.61,0.95,0.3
+Taki Taki,DJ Snake ft. Selena Gomez,R&B,97,0.61,0.57,0.66
+Lucid Dreams,Juice WRLD,Jazz,86,0.9,0.35,0.75
+Rockabye,Clean Bandit ft. Anne-Marie,Reggaeton,157,0.87,0.31,0.76
+Finesse,Bruno Mars ft. Cardi B,Electrónica,74,0.58,0.88,0.8
+In My Feelings,Drake,Jazz,155,0.95,0.67,0.9
+7 rings,Ariana Grande,Jazz,120,0.97,0.84,0.6
+Without Me,Halsey,Clásica,80,0.6,0.46,0.78
+Dynamite,BTS,Clásica,105,0.61,0.54,0.7
+Yummy,Justin Bieber,Reggaeton,128,0.7,0.32,0.35
+I Gotta Feeling,The Black Eyed Peas,Electrónica,65,0.96,0.97,0.22
+Take Me to Church,Hozier,Clásica,97,0.93,0.77,0.43
+Sucker,Jonas Brothers,Reggaeton,121,0.46,0.95,0.55
+Sorry Not Sorry,Demi Lovato,Reggaeton,145,0.64,0.49,0.69
+Photograph,Ed Sheeran,R&B,121,0.73,0.73,0.88
+No Tears Left to Cry,Ariana Grande,Rock,141,0.7,0.77,0.36
+Blinding Lights,The Weeknd,R&B,137,0.52,0.52,0.3
+Shape of You,Ed Sheeran,Electrónica,133,0.92,0.89,0.97
+Levitating,Dua Lipa,Clásica,105,0.81,0.96,0.29
+Bad Guy,Billie Eilish,Electrónica,72,0.9,0.92,0.58
+Uptown Funk,Mark Ronson ft. Bruno Mars,Jazz,154,0.92,0.82,0.67
+Rolling in the Deep,Adele,Jazz,153,0.85,0.49,0.63
+Stay,The Kid LAROI & Justin Bieber,Electrónica,62,0.66,0.5,0.27
+Don't Start Now,Dua Lipa,Rock,153,0.77,0.97,0.25
+Peaches,Justin Bieber ft. Daniel Caesar,Rock,65,0.5,0.31,0.28
+Old Town Road,Lil Nas X,R&B,152,0.8,0.8,0.67
+Dance Monkey,Tones and I,Electrónica,67,0.51,0.79,0.64
+Senorita,Shawn Mendes & Camila Cabello,Clásica,103,0.82,0.74,0.39
+Rockstar,Post Malone,R&B,168,0.54,0.99,0.71
+Sunflower,Post Malone & Swae Lee,Hip-Hop,166,0.47,0.52,0.86
+Closer,The Chainsmokers ft. Halsey,Rock,167,0.5,0.54,0.23
+Believer,Imagine Dragons,Pop,92,0.4,0.36,0.6
+Stressed Out,Twenty One Pilots,R&B,140,0.83,0.61,0.75
+Sorry,Justin Bieber,Jazz,171,0.84,0.48,0.4
+Perfect,Ed Sheeran,R&B,134,0.71,0.54,0.45
+Thinking Out Loud,Ed Sheeran,Electrónica,136,0.5,0.88,0.69
+Shallow,Lady Gaga & Bradley Cooper,Pop,109,0.45,0.95,0.92
+Happy,Pharrell Williams,Electrónica,70,0.41,0.43,0.85
+Someone Like You,Adele,Reggaeton,154,0.5,0.56,0.67
+Savage Love,Jawsh 685 & Jason Derulo,Jazz,87,0.93,0.95,0.78
+Despacito,Luis Fonsi ft. Daddy Yankee,Jazz,167,0.54,0.34,0.49
+One Dance,Drake,Rock,129,0.61,0.36,0.71
+God's Plan,Drake,R&B,100,0.46,0.41,0.57
+Circles,Post Malone,Rock,75,0.53,0.72,0.35
+Bad Habits,Ed Sheeran,Pop,127,0.71,0.41,0.76
+Memories,Maroon 5,R&B,158,0.76,0.98,0.65
+Faded,Alan Walker,Reggaeton,107,0.55,0.61,0.49
+Cheap Thrills,Sia,Electrónica,115,0.43,0.65,0.93
+Havana,Camila Cabello,Reggaeton,123,0.63,0.47,0.22
+Love Yourself,Justin Bieber,Jazz,118,0.54,0.63,0.45
+"Thank U, Next",Ariana Grande,Pop,149,0.53,0.76,0.25
+Taki Taki,DJ Snake ft. Selena Gomez,Hip-Hop,121,0.98,0.83,0.81
+Lucid Dreams,Juice WRLD,Pop,135,0.77,0.83,0.76
+Rockabye,Clean Bandit ft. Anne-Marie,Clásica,70,0.73,0.7,0.47
+Finesse,Bruno Mars ft. Cardi B,Pop,160,0.65,0.93,0.74
+In My Feelings,Drake,Reggaeton,148,0.66,0.87,0.52
+7 rings,Ariana Grande,Clásica,77,0.72,0.83,0.81
+Without Me,Halsey,Clásica,78,0.82,0.34,0.56
+Dynamite,BTS,R&B,146,0.82,0.3,0.53
+Yummy,Justin Bieber,R&B,114,0.5,0.45,0.95
+I Gotta Feeling,The Black Eyed Peas,Clásica,161,0.7,0.76,0.4
+Take Me to Church,Hozier,Hip-Hop,177,0.65,0.59,0.3
+Sucker,Jonas Brothers,R&B,141,0.92,0.58,0.67
+Sorry Not Sorry,Demi Lovato,Pop,85,0.78,0.92,0.98
+Photograph,Ed Sheeran,Reggaeton,65,0.72,0.93,0.5
+No Tears Left to Cry,Ariana Grande,Pop,63,0.47,0.94,0.25
+Blinding Lights,The Weeknd,Hip-Hop,167,0.76,0.52,0.47
+Shape of You,Ed Sheeran,Jazz,174,0.47,0.78,0.6
+Levitating,Dua Lipa,Rock,88,0.6,0.49,0.33
+Bad Guy,Billie Eilish,Reggaeton,118,0.49,0.43,0.73
+Uptown Funk,Mark Ronson ft. Bruno Mars,R&B,157,0.82,0.43,1.0
+Rolling in the Deep,Adele,Reggaeton,76,0.52,0.54,0.56
+Stay,The Kid LAROI & Justin Bieber,Pop,166,0.64,0.6,0.48
+Don't Start Now,Dua Lipa,Rock,102,0.94,0.88,0.52
+Peaches,Justin Bieber ft. Daniel Caesar,Electrónica,176,0.52,0.38,0.29
+Old Town Road,Lil Nas X,Electrónica,139,0.7,0.81,0.91
+Dance Monkey,Tones and I,R&B,125,0.65,0.67,0.53
+Senorita,Shawn Mendes & Camila Cabello,Hip-Hop,93,0.41,0.5,0.51
+Rockstar,Post Malone,Electrónica,178,0.88,0.64,0.73
+Sunflower,Post Malone & Swae Lee,Reggaeton,67,0.44,0.51,0.55
+Closer,The Chainsmokers ft. Halsey,Electrónica,72,0.68,0.72,0.72
+Believer,Imagine Dragons,Jazz,165,0.74,0.6,0.25
+Stressed Out,Twenty One Pilots,Jazz,67,0.78,0.42,0.85
+Sorry,Justin Bieber,R&B,153,0.81,0.38,0.95
+Perfect,Ed Sheeran,Jazz,155,0.55,0.68,0.72
+Thinking Out Loud,Ed Sheeran,Electrónica,159,0.41,0.93,0.96
+Shallow,Lady Gaga & Bradley Cooper,Hip-Hop,170,0.83,0.54,0.32
+Happy,Pharrell Williams,Clásica,153,0.72,0.81,0.58
+Someone Like You,Adele,Clásica,124,0.9,0.76,0.68
+Savage Love,Jawsh 685 & Jason Derulo,R&B,102,0.89,0.95,0.67
+Despacito,Luis Fonsi ft. Daddy Yankee,Rock,98,0.91,0.87,0.52
+One Dance,Drake,Clásica,140,0.69,0.7,0.47
+God's Plan,Drake,Clásica,118,0.6,0.76,0.3
+Circles,Post Malone,Jazz,143,0.87,0.93,0.51
+Bad Habits,Ed Sheeran,Jazz,147,0.67,0.58,0.33
+Memories,Maroon 5,Electrónica,173,0.51,0.53,0.79
+Faded,Alan Walker,R&B,145,0.91,0.31,0.37
+Cheap Thrills,Sia,Rock,152,0.93,0.88,0.25
+Havana,Camila Cabello,R&B,145,0.68,0.86,0.64
+Love Yourself,Justin Bieber,Pop,103,0.45,0.37,0.68
+"Thank U, Next",Ariana Grande,Reggaeton,68,0.63,0.7,0.9
+Taki Taki,DJ Snake ft. Selena Gomez,Rock,96,0.88,0.62,0.66
+Lucid Dreams,Juice WRLD,Rock,133,0.94,0.38,0.48
+Rockabye,Clean Bandit ft. Anne-Marie,Hip-Hop,95,0.52,0.99,0.84
+Finesse,Bruno Mars ft. Cardi B,R&B,160,0.44,0.45,0.63
+In My Feelings,Drake,Electrónica,151,0.93,0.35,0.26
+7 rings,Ariana Grande,Hip-Hop,87,0.63,0.72,0.65
+Without Me,Halsey,Rock,101,0.73,0.82,0.93
+Dynamite,BTS,Rock,102,0.98,0.32,0.52
+Yummy,Justin Bieber,Rock,144,0.44,0.76,0.44
+I Gotta Feeling,The Black Eyed Peas,Clásica,147,0.79,0.67,0.31
+Take Me to Church,Hozier,R&B,101,0.44,0.37,0.32
+Sucker,Jonas Brothers,Reggaeton,163,0.63,0.42,0.55
+Sorry Not Sorry,Demi Lovato,Reggaeton,125,0.88,0.7,0.68
+Photograph,Ed Sheeran,Hip-Hop,114,0.66,0.51,0.26
+No Tears Left to Cry,Ariana Grande,Rock,131,1.0,0.96,0.95
+Blinding Lights,The Weeknd,Reggaeton,107,0.74,0.87,0.8
+Shape of You,Ed Sheeran,Jazz,150,0.59,0.99,0.67
+Levitating,Dua Lipa,R&B,81,0.53,0.48,0.86
+Bad Guy,Billie Eilish,Reggaeton,160,0.61,0.98,0.26
+Uptown Funk,Mark Ronson ft. Bruno Mars,Electrónica,86,0.62,0.6,0.58
+Rolling in the Deep,Adele,R&B,152,0.44,0.54,0.7
+Stay,The Kid LAROI & Justin Bieber,Electrónica,126,0.62,0.34,0.86
+Don't Start Now,Dua Lipa,Reggaeton,167,0.68,0.34,0.83
+Peaches,Justin Bieber ft. Daniel Caesar,Jazz,72,0.83,0.78,0.42
+Old Town Road,Lil Nas X,Electrónica,104,0.79,0.62,0.95
+Dance Monkey,Tones and I,Clásica,69,0.83,0.46,0.3
+Senorita,Shawn Mendes & Camila Cabello,Reggaeton,159,0.41,0.73,0.9
+Rockstar,Post Malone,Clásica,68,0.53,0.48,0.98
+Sunflower,Post Malone & Swae Lee,Reggaeton,113,0.8,0.7,0.34
+Closer,The Chainsmokers ft. Halsey,Pop,179,0.69,0.55,0.78
+Believer,Imagine Dragons,Pop,178,0.4,0.88,0.23
+Stressed Out,Twenty One Pilots,Pop,86,0.88,0.87,0.52
+Sorry,Justin Bieber,Electrónica,93,0.86,0.63,0.61
+Perfect,Ed Sheeran,Clásica,174,0.73,0.55,0.66
+Thinking Out Loud,Ed Sheeran,Clásica,60,0.44,0.55,0.95
+Shallow,Lady Gaga & Bradley Cooper,Clásica,91,0.86,0.86,0.74
+Happy,Pharrell Williams,Jazz,148,0.75,0.53,0.59
+Someone Like You,Adele,Clásica,152,0.87,0.45,0.85
+Savage Love,Jawsh 685 & Jason Derulo,Jazz,130,0.85,0.36,0.96
+Despacito,Luis Fonsi ft. Daddy Yankee,Pop,172,0.88,0.63,0.22
+One Dance,Drake,Pop,126,0.71,0.64,0.99
+God's Plan,Drake,Electrónica,143,0.48,0.89,0.27
+Circles,Post Malone,Reggaeton,79,0.8,0.45,0.85
+Bad Habits,Ed Sheeran,Pop,176,0.77,0.57,0.42
+Memories,Maroon 5,Reggaeton,153,0.85,0.87,0.31
+Faded,Alan Walker,Reggaeton,94,0.5,0.88,0.55
+Cheap Thrills,Sia,R&B,158,0.52,0.57,0.72
+Havana,Camila Cabello,Electrónica,172,0.93,0.62,0.5
+Love Yourself,Justin Bieber,Rock,162,0.85,0.51,0.24
+"Thank U, Next",Ariana Grande,Rock,150,0.94,0.95,0.68
+Taki Taki,DJ Snake ft. Selena Gomez,Hip-Hop,149,0.86,0.38,0.92
+Lucid Dreams,Juice WRLD,R&B,137,0.76,0.95,0.51
+Rockabye,Clean Bandit ft. Anne-Marie,Electrónica,76,0.79,0.78,0.37
+Finesse,Bruno Mars ft. Cardi B,Hip-Hop,77,0.93,0.67,0.55
+In My Feelings,Drake,Hip-Hop,104,0.75,0.32,0.24
+7 rings,Ariana Grande,R&B,175,0.78,0.63,0.86
+Without Me,Halsey,Rock,152,0.49,0.59,0.86
+Dynamite,BTS,Electrónica,143,0.68,0.41,0.67
+Yummy,Justin Bieber,Rock,112,0.83,0.76,0.48
+I Gotta Feeling,The Black Eyed Peas,Hip-Hop,150,0.56,0.98,0.84
+Take Me to Church,Hozier,Electrónica,141,0.52,0.69,0.64
+Sucker,Jonas Brothers,Hip-Hop,127,0.59,0.8,0.86
+Sorry Not Sorry,Demi Lovato,Clásica,124,0.54,0.35,0.71
+Photograph,Ed Sheeran,R&B,173,0.53,0.59,0.83
+No Tears Left to Cry,Ariana Grande,Reggaeton,60,0.65,0.38,0.68
