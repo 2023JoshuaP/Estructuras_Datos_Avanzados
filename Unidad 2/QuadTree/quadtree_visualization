@@ -1,0 +1,347 @@
+digraph {
+	"(129, 21)
+Point 1"
+	"(144, 152)
+Point 2"
+	"(129, 21)
+Point 1" -> "(144, 152)
+Point 2" [label=NE]
+	"(144, 152)
+Point 2"
+	"(147, 194)
+Point 3"
+	"(144, 152)
+Point 2" -> "(147, 194)
+Point 3" [label=NE]
+	"(147, 194)
+Point 3"
+	"(9, 42)
+Point 4"
+	"(129, 21)
+Point 1" -> "(9, 42)
+Point 4" [label=NW]
+	"(9, 42)
+Point 4"
+	"(101, 4)
+Point 5"
+	"(129, 21)
+Point 1" -> "(101, 4)
+Point 5" [label=SW]
+	"(101, 4)
+Point 5"
+	"(168, 93)
+Point 6"
+	"(144, 152)
+Point 2" -> "(168, 93)
+Point 6" [label=SE]
+	"(168, 93)
+Point 6"
+	"(84, 81)
+Point 7"
+	"(9, 42)
+Point 4" -> "(84, 81)
+Point 7" [label=NE]
+	"(84, 81)
+Point 7"
+	"(179, 44)
+Point 8"
+	"(168, 93)
+Point 6" -> "(179, 44)
+Point 8" [label=SE]
+	"(179, 44)
+Point 8"
+	"(81, 38)
+Point 9"
+	"(9, 42)
+Point 4" -> "(81, 38)
+Point 9" [label=SE]
+	"(81, 38)
+Point 9"
+	"(15, 4)
+Point 10"
+	"(101, 4)
+Point 5" -> "(15, 4)
+Point 10" [label=NW]
+	"(15, 4)
+Point 10"
+	"(19, 56)
+Point 11"
+	"(84, 81)
+Point 7" -> "(19, 56)
+Point 11" [label=SW]
+	"(19, 56)
+Point 11"
+	"(116, 160)
+Point 12"
+	"(84, 81)
+Point 7" -> "(116, 160)
+Point 12" [label=NE]
+	"(116, 160)
+Point 12"
+	"(33, 85)
+Point 13"
+	"(84, 81)
+Point 7" -> "(33, 85)
+Point 13" [label=NW]
+	"(33, 85)
+Point 13"
+	"(134, 95)
+Point 14"
+	"(144, 152)
+Point 2" -> "(134, 95)
+Point 14" [label=SW]
+	"(134, 95)
+Point 14"
+	"(153, 119)
+Point 15"
+	"(168, 93)
+Point 6" -> "(153, 119)
+Point 15" [label=NW]
+	"(153, 119)
+Point 15"
+	"(31, 93)
+Point 16"
+	"(33, 85)
+Point 13" -> "(31, 93)
+Point 16" [label=NW]
+	"(31, 93)
+Point 16"
+	"(172, 31)
+Point 17"
+	"(179, 44)
+Point 8" -> "(172, 31)
+Point 17" [label=SW]
+	"(172, 31)
+Point 17"
+	"(148, 152)
+Point 18"
+	"(147, 194)
+Point 3" -> "(148, 152)
+Point 18" [label=SE]
+	"(148, 152)
+Point 18"
+	"(106, 14)
+Point 19"
+	"(101, 4)
+Point 5" -> "(106, 14)
+Point 19" [label=NE]
+	"(106, 14)
+Point 19"
+	"(53, 70)
+Point 20"
+	"(19, 56)
+Point 11" -> "(53, 70)
+Point 20" [label=NE]
+	"(53, 70)
+Point 20"
+	"(123, 17)
+Point 21"
+	"(106, 14)
+Point 19" -> "(123, 17)
+Point 21" [label=NE]
+	"(123, 17)
+Point 21"
+	"(38, 196)
+Point 22"
+	"(33, 85)
+Point 13" -> "(38, 196)
+Point 22" [label=NE]
+	"(38, 196)
+Point 22"
+	"(36, 150)
+Point 23"
+	"(38, 196)
+Point 22" -> "(36, 150)
+Point 23" [label=SW]
+	"(36, 150)
+Point 23"
+	"(137, 111)
+Point 24"
+	"(134, 95)
+Point 14" -> "(137, 111)
+Point 24" [label=NE]
+	"(137, 111)
+Point 24"
+	"(191, 178)
+Point 25"
+	"(148, 152)
+Point 18" -> "(191, 178)
+Point 25" [label=NE]
+	"(191, 178)
+Point 25"
+	"(8, 4)
+Point 26"
+	"(15, 4)
+Point 10" -> "(8, 4)
+Point 26" [label=NW]
+	"(8, 4)
+Point 26"
+	"(66, 179)
+Point 27"
+	"(38, 196)
+Point 22" -> "(66, 179)
+Point 27" [label=SE]
+	"(66, 179)
+Point 27"
+	"(29, 61)
+Point 28"
+	"(53, 70)
+Point 20" -> "(29, 61)
+Point 28" [label=SW]
+	"(29, 61)
+Point 28"
+	"(43, 92)
+Point 29"
+	"(66, 179)
+Point 27" -> "(43, 92)
+Point 29" [label=SW]
+	"(43, 92)
+Point 29"
+	"(196, 103)
+Point 30"
+	"(168, 93)
+Point 6" -> "(196, 103)
+Point 30" [label=NE]
+	"(196, 103)
+Point 30"
+	"(22, 64)
+Point 31"
+	"(29, 61)
+Point 28" -> "(22, 64)
+Point 31" [label=NW]
+	"(22, 64)
+Point 31"
+	"(95, 13)
+Point 32"
+	"(15, 4)
+Point 10" -> "(95, 13)
+Point 32" [label=NE]
+	"(95, 13)
+Point 32"
+	"(125, 93)
+Point 33"
+	"(116, 160)
+Point 12" -> "(125, 93)
+Point 33" [label=SE]
+	"(125, 93)
+Point 33"
+	"(46, 6)
+Point 34"
+	"(95, 13)
+Point 32" -> "(46, 6)
+Point 34" [label=SW]
+	"(46, 6)
+Point 34"
+	"(42, 197)
+Point 35"
+	"(38, 196)
+Point 22" -> "(42, 197)
+Point 35" [label=NE]
+	"(42, 197)
+Point 35"
+	"(195, 167)
+Point 36"
+	"(191, 178)
+Point 25" -> "(195, 167)
+Point 36" [label=SE]
+	"(195, 167)
+Point 36"
+	"(103, 139)
+Point 37"
+	"(116, 160)
+Point 12" -> "(103, 139)
+Point 37" [label=SW]
+	"(103, 139)
+Point 37"
+	"(63, 37)
+Point 38"
+	"(81, 38)
+Point 9" -> "(63, 37)
+Point 38" [label=SW]
+	"(63, 37)
+Point 38"
+	"(99, 69)
+Point 39"
+	"(84, 81)
+Point 7" -> "(99, 69)
+Point 39" [label=SE]
+	"(99, 69)
+Point 39"
+	"(39, 172)
+Point 40"
+	"(43, 92)
+Point 29" -> "(39, 172)
+Point 40" [label=NW]
+	"(39, 172)
+Point 40"
+	"(9, 84)
+Point 41"
+	"(33, 85)
+Point 13" -> "(9, 84)
+Point 41" [label=SW]
+	"(9, 84)
+Point 41"
+	"(125, 157)
+Point 42"
+	"(125, 93)
+Point 33" -> "(125, 157)
+Point 42" [label=NE]
+	"(125, 157)
+Point 42"
+	"(123, 59)
+Point 43"
+	"(99, 69)
+Point 39" -> "(123, 59)
+Point 43" [label=SE]
+	"(123, 59)
+Point 43"
+	"(97, 175)
+Point 44"
+	"(116, 160)
+Point 12" -> "(97, 175)
+Point 44" [label=NW]
+	"(97, 175)
+Point 44"
+	"(115, 51)
+Point 45"
+	"(123, 59)
+Point 43" -> "(115, 51)
+Point 45" [label=SW]
+	"(115, 51)
+Point 45"
+	"(180, 13)
+Point 46"
+	"(129, 21)
+Point 1" -> "(180, 13)
+Point 46" [label=SE]
+	"(180, 13)
+Point 46"
+	"(44, 18)
+Point 47"
+	"(95, 13)
+Point 32" -> "(44, 18)
+Point 47" [label=NW]
+	"(44, 18)
+Point 47"
+	"(164, 96)
+Point 48"
+	"(153, 119)
+Point 15" -> "(164, 96)
+Point 48" [label=SE]
+	"(164, 96)
+Point 48"
+	"(199, 189)
+Point 49"
+	"(191, 178)
+Point 25" -> "(199, 189)
+Point 49" [label=NE]
+	"(199, 189)
+Point 49"
+	"(194, 116)
+Point 50"
+	"(196, 103)
+Point 30" -> "(194, 116)
+Point 50" [label=NW]
+	"(194, 116)
+Point 50"
+}
