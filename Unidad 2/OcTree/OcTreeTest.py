@@ -124,7 +124,7 @@ class OcTree:
         return self.root.get_palette_index(color, 0)
     
 def main():
-    image = Image.open('OzzmaKappa.jpg')
+    image = Image.open('aqp.png')
     pixels = image.load()
     width, height = image.size
     
@@ -134,14 +134,14 @@ def main():
         for i in range(width):
             octree.add_color(Color(*pixels[i, j]))
     
-    palette = octree.make_palette(64)
-    palette_image = Image.new('RGB', (8, 8))
+    palette = octree.make_palette(121)
+    palette_image = Image.new('RGB', (11, 11))
     palette_pixels = palette_image.load()
     
     for i, color in enumerate(palette):
-        palette_pixels[i % 8, i // 8] = (int(color.r), int(color.g), int(color.b))
+        palette_pixels[i % 11, i // 11] = (int(color.r), int(color.g), int(color.b))
     
-    palette_image.save('palette.png')
+    palette_image.save('paletteaqp121.png')
     output_image = Image.new('RGB', (width, height))
     output_pixels = output_image.load()
     for j in range(height):
@@ -150,7 +150,7 @@ def main():
             color = palette[index]
             output_pixels[i, j] = (int(color.r), int(color.g), int(color.b))
     
-    output_image.save('output.png')
+    output_image.save('outputaqp121.png')
     
 if __name__ == '__main__':
     main()
